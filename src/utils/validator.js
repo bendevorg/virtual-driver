@@ -26,13 +26,3 @@ exports.isValidInteger = integerToValidate => {
     && parseInt(integerToValidate) <= Number.MAX_SAFE_INTEGER 
     && parseInt(integerToValidate) >= Number.MIN_SAFE_INTEGER;
 };
-
-/**
- * Validate if the input is a valid integer
- * @param {string} integerToValidate - Integer to be validated
- * @return {boolean} - True case the integer is valid and false if it is not
-*/
-exports.isValidScreenPosition = (x, y) => {
-  return (x >= 0 && x <= constants.os.SCREEN_WIDTH) && 
-    (y >= 0 && y <= constants.os.SCREEN_HEIGHT);
-};
