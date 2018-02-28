@@ -4,7 +4,8 @@
 */
 
 const ffi = require('ffi');
-const driverPath = 'driver/vd64.dll';
+const path = require('path');
+const driverPath = path.join(__dirname, './vd64.dll');
 
 //  Import our virtual driver with functions
 const driver = ffi.Library(driverPath, {
