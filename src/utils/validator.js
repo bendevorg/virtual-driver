@@ -3,7 +3,6 @@
  * @module utils/validator
 */
 
-const regex = require('./regex');
 const constants = require('./constants');
 
 /**
@@ -22,7 +21,7 @@ exports.isValidString = stringToValidate => {
  * @return {boolean} - True case the integer is valid and false if it is not
 */
 exports.isValidInteger = integerToValidate => {
-  return regex.integer.test(integerToValidate) 
+  return /^-?\d+$/.test(integerToValidate) 
     && parseInt(integerToValidate) <= Number.MAX_SAFE_INTEGER 
     && parseInt(integerToValidate) >= Number.MIN_SAFE_INTEGER;
 };
