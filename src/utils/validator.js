@@ -3,8 +3,6 @@
  * @module utils/validator
 */
 
-const constants = require('./constants');
-
 /**
  * Validate if the input is a valid not empty string
  *
