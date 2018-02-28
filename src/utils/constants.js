@@ -10,7 +10,8 @@ module.exports = {
     INVALID_SCREEN_POSITION: 'The point [x, y] is not valid in this screen resolution.',
     INVALID_MOUSE_BUTTON: 'The mouse button sent is not valid.',
     INVALID_KEYBOARD_KEY: 'The keyboard key sent is not valid.',
-    INVALID_STRING: 'The string sent is not valid.'
+    INVALID_STRING: 'The string sent is not valid.',
+    UNEXPECTED_DRIVER_ERROR: 'A problem occurred while accessing the driver data'
   },
   input: {
     HUMAN_TIME_REACTION_MIN: 115,
