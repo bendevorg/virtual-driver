@@ -1,6 +1,6 @@
 {
   "name": "virtual-driver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This package delivery a virtual driver that can be used to manipulate mouse and keyboard commands at the driver level. Useful for DirectX and other softwares that capture input directly from drivers.",
   "main": "index.js",
   "scripts": {
