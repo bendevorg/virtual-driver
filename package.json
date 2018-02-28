@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/guiconti/virtual-driver.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Guilherme Conti Teixeira",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/guiconti/virtual-driver/issues"
   },
