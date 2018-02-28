@@ -3,9 +3,6 @@
  * @module utils/constants
 */
 
-const OS = require('./OS');
-const os = new OS();
-
 module.exports = {
   error:{
     INVALID_X: 'The X value sent is invalid.',
