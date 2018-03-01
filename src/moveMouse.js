@@ -19,8 +19,6 @@ module.exports = (x, y) => {
     throw Error(constants.error.INVALID_X);
   if (!validator.isValidInteger(y))
     throw Error(constants.error.INVALID_Y);
-  if (!validator.isValidScreenPosition(x, y))
-    throw Error(constants.error.INVALID_SCREEN_POSITION);
   driver.DD_mov(x, y);
   return true;
 };

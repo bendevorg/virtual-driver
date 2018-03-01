@@ -4,9 +4,11 @@
  * MIT Licensed
 */
 
-let virtualDriver = {};
-const featuresPath = process.cwd() + '/src/';
+const path = require('path');
 const fs = require('fs');
+
+let virtualDriver = {};
+const featuresPath = path.join(__dirname, '/src/');
 
 fs.readdirSync(featuresPath).forEach(file => {
   if (file.indexOf('.js') !== -1){

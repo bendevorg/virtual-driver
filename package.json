@@ -18,6 +18,6 @@
   "homepage": "https://github.com/guiconti/virtual-driver#readme",
   "dependencies": {
     "ffi": "^2.2.0",
-    "os-data": "0.0.1"
+    "os-data": "^0.0.2"
   }
 }

@@ -16,7 +16,7 @@ const constants = require('./utils/constants');
 */
 
 function moveMouseLerp(x, y) {
-  os.mousePosition()
+  os.getMousePosition()
     .then(mousePosition => {
       if (mousePosition.x == x && mousePosition.y == y) {
         return setTimeout(() => {
